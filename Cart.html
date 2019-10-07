@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+   
+    <link rel="stylesheet" type="text/css" href="mybootstrapcss.css">
+</head> 
+<body id="cen">
+    <div class="display">
+        <nav id="mybar" align="center">
+            <!--calling the ID so i can make the changes in CSS-->
+            <a href="index.html"><b>Catalogue</b></a> |
+            <!--displaying the nav bar with its info inside-->
+            <a href="Cart.html"><b>Cart</b></a> 
+            <!--displaying the nav bar with its info inside-->
+
+        </nav>
+    </div>
+    <h1>MY items in my Cart</h1>
+    <h3>Click here to apply for a discount</h3>
+    	<button id="aa" type="button" class="btn btn-danger" onclick="foodP()">Coupon Special</button>
+    	<label id="total"></label><br/>  <!--making a button for the functions an in the alert you can add your info-->
+    	<button id="aa" type="button" class="btn btn-danger" onclick="DrinkP()">DELIVERY</button>
+    	<label id="totals"></label><br/>    <!--making a button for the functions an in the alert you can add your info-->
+    	<button id="aa" type="button" class="btn btn-danger" onclick="tip()">VALUE ADDED TAX</button>
+    	<label id="tip"></label><br/>     <!--making a button for the functions an in the alert you can add your info-->
+		<button id="aa" type="button" class="btn btn-danger" onclick="fullAmount()">TOTAL PAYED</button>
+    	<label id="FA"></label>     <!--making a button for the functions an in the alert you can add your info-->
+    	<button id="ee">Click HERE</button> 
+    	<button id="hide">Hide</button>
+		<button id="show">Show</button>
+    	<div>
+        <h2>MY Hovered Drop Drown</h2>
+        <h2 class="cc">Birthday Cake</h2>
+        <p class="dd">SPECIAL OFFER TODAY </p>
+        <!--this is my hovred over dropdown with 3 various items in them-->
+        <h2 class="cc">RED VELVET CAKE</h2>
+        <p class="dd">SPECIAL OFFER TODAY</p>
+        <!--this is my hovred over dropdown with 3 various items in them-->
+        <h2 class="cc">Triple coated caramel cake.</h2>
+        <p class="dd">BUY 2 AND GET 2 FREE ONLY TODAY</p>
+    </div>
+	
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="carts.js"></script>
+    <script type="text/javascript" src="coupon.js"></script>
+    <script type="text/javascript" src="CAT.js"></script>
+    <!--linking the different pages--> 
+</body>
+
+</html>
