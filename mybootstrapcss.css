@@ -7,7 +7,7 @@ body{
 }
 
 #mybar{      /*calling the bar with its special name and changing the color of the wording*/           
-	background: black     
+  text-align: center;
 	padding:3px;
 }
 
